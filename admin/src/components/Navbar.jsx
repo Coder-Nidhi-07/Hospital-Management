@@ -9,7 +9,7 @@ function Navbar() {
 
     const {adminToken, setAdminToken}=useContext(AdminContext)
     const {doctorToken, setDoctorToken}=useContext(DoctorContext)
-    const userUrl="https://prescripto-frontend-zky1.onrender.com"
+    const userUrl="https://prescripto-slzb.onrender.com"
 
     const navigate=useNavigate()
 

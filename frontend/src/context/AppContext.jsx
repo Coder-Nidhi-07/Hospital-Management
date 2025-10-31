@@ -8,7 +8,7 @@ const AppContextProvider=(props)=>{
 
     const currencySymbol='$'
     // const backendUrl=import.meta.env.VITE_BACKEND_URL 
-    const backendUrl=import.meta.env.VITE_BACKEND_URL ||"https://prescripto-backend-9mln.onrender.com"
+    const backendUrl=import.meta.env.VITE_BACKEND_URL ||"https://hospital-management-n3cx.onrender.com"
     
 
     const [doctors, setDoctors]=useState([])
